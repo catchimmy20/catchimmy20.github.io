@@ -25,7 +25,7 @@ url                      : "https://catchimmy20.github.io" # the base hostname &
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "catchimmy20/catchimmy20.github.io" # GitHub username/repo-name e.g. 
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
+logo                     : "/assets/images/toast.png" # path of logo image to display in the masthead, e.g. 
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 breadcrumbs              : true # true, false (default)
 words_per_minute         : 200
@@ -103,7 +103,7 @@ analytics:
 # Site Author
 author:
   name             : "KANG"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/images/breadgull.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "공부하는 블로그"
   location         : "South Korea"
   email            :
@@ -288,3 +288,4 @@ defaults:
       comments: # true
       share: true
       related: true
+      show_date: true
